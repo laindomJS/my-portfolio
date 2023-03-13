@@ -22,3 +22,6 @@
   @apply text-2xl md:text-3xl lg:text-4xl w-full text-center lg:w-full font-merriweather font-extrabold text-white skew-x-6 -skew-y-6 tracking-wider border-2 border-blue-500 p-2 md:p-4 lg:p-2 transition-all cursor-pointer duration-300 hover:scale-105 hover:skew-x-0 hover:skew-y-6 hover:bg-blue-500 hover:border-white
 }
 
+.btn {
+  @apply w-28 md:w-36 h-10 bg-slate-900 text-sm md:text-base text-white rounded-md font-merriweather text-center pt-3 md:py-2 font-semibold lg:font-bold shadow-sm shadow-slate-200 transition-transform duration-300 hover:scale-95 hover:shadow-slate-900 hover:bg-transparent hover:backdrop-blur-sm
+}

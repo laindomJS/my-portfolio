@@ -1,13 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Main from '../layouts/Main.astro';
 import Hero from '../components/Hero.astro';
+import Header from '../components/Header.astro';
 ---
 
 <Layout title="Adrian Rangel">
-	<Main>
+	<Header />
+	<main class="w-full md:max-w-7xl min-h-screen flex flex-col px-10 mx-auto">
 		<Hero /> 
-	</Main>
+	</main>
 </Layout> 
 
