@@ -1,16 +1,9 @@
 ---
+import HeroLeft from "./HeroLeft.astro";
+import HeroRight from "./HeroRight.astro";
 ---
 
-<section class="max-w-7xl mt-36 lg:mt-48 flex items-center">
-  <div class="w-full leading-loose">
-    <h1 class="font-merriweather font-bold text-3xl lg:text-5xl text-white mb-3 md:mb-0">
-      ¡Hi! I'm Adrian Rangel
-    </h1>
-    <h2 class="font-merriweather font-bold text-3xl lg:text-4xl text-white mt-3 md:w-[320px] lg:w-[520px]">
-      <span class="text-blue-400">Web Developer</span> and <span class="underline decoration-wavy decoration-yellow-400">JavaScript Enthusiast</span>
-    </h2>
-    <p class="mt-6 font-work font-semibold text-base text-[#aeaead] md:w-[430px] lg:w-[540px]">
-      I am a computer engineering student with a predilection for web development. I've been self-taught web development for a year, creating projects and helping out in the community.
-    </p>
-  </div>
+<section class='w-full md:max-w-7xl mt-28 md:mt-36 lg:mt-48 flex flex-col md:flex-col lg:flex-row justify-between md:px-10 lg:px-12'>
+	<HeroLeft />
+  <HeroRight />
 </section>

@@ -19,5 +19,6 @@
 }
 
 .link {
-  @apply text-sm md:text-base lg:text-lg lg:tracking-wider lg:font-semibold font-work font-semibold text-slate-300 transition-colors duration-200 hover:text-blue-500 border-b border-transparent hover:border-blue-500;
+  @apply text-2xl md:text-3xl lg:text-4xl w-full text-center lg:w-full font-merriweather font-extrabold text-white skew-x-6 -skew-y-6 tracking-wider border-2 border-blue-500 p-2 md:p-4 lg:p-2 transition-all cursor-pointer duration-300 hover:scale-105 hover:skew-x-0 hover:skew-y-6 hover:bg-blue-500 hover:border-white
 }
+

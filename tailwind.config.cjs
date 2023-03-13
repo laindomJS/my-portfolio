@@ -6,6 +6,9 @@ module.exports = {
 			fontFamily: {
 				merriweather: ['Merriweather Sans', 'sans-serif'],
 				work: ['Work Sans', 'sans-serif'],
+			},
+			backgroundImage: {
+				'pattern-desktop': "url('/assets/qqquad.svg')",
 			}
 		},
 	},
