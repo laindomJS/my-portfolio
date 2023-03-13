@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply min-h-screen w-full;
+  }
+}
+
+@font-face {
+  font-family: 'Merriweather Sans';
+  src: url('/fonts/MerriweatherSans-VariableFont_wght.ttf') format('tff');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/fonts/WorkSans-VariableFont_wght.ttf') format('tff');
+}
+
+.link {
+  @apply text-sm md:text-base lg:text-lg lg:tracking-wider lg:font-semibold font-work font-semibold text-slate-300 transition-colors duration-200 hover:text-blue-500 border-b border-transparent hover:border-blue-500;
+}
