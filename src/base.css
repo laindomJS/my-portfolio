@@ -19,5 +19,5 @@
 }
 
 .link {
-  @apply font-bold text-white bg-opacity-5 bg-white backdrop-blur-lg drop-shadow-lg font-merriweather text-base lg:text-lg rounded-md duration-300 transition-all hover:scale-105 hover:bg-opacity-10 hover:shadow-sm hover:shadow-purple-300 px-3 py-1;
+  @apply font-bold text-white bg-opacity-5 bg-white backdrop-blur-lg drop-shadow-lg font-merriweather text-base lg:text-lg rounded-md duration-300 transition-all hover:scale-105 hover:bg-opacity-10 hover:shadow-sm hover:shadow-purple-300 px-3 py-2 md:py-1 mx-auto md:m-0 w-32 md:w-fit;
 }
