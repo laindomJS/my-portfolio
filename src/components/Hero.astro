@@ -1,0 +1,27 @@
+---
+---
+
+<section class="w-full h-full mt-8 md:mt-0 md:h-[540px] flex flex-col md:grid md:justify-start md:items-center">
+  
+  <div id="title" class="text-left font-merriweather">
+    <span class="text-3xl text-white font-semibold">Hello! I'm</span>
+    <h2 
+    class="-tracking-wider text-6xl md:text-7xl font-extrabold bg-clip-text bg-gradient-to-tl from-purple-800 via-purple-600 to-rose-600 text-transparent pb-3">
+      Adrian Rangel
+    </h2>
+    <p class="font-bold text-3xl text-white">Web developer, JavaScript enthusiast</p>
+    <p class="text-xl text-slate-400 md:w-[540px] mt-2 leading-7">I am a web developer who loves the JavaScript ecosystem. I seek to create software that is sustainable and provides a unique user experience.</p>
+  </div>
+
+</section>
+
+<script>
+  import { animate, inView } from 'motion';
+
+  inView('#title', (info) => {
+    animate(info.target, 
+    {opacity:[0, 0.2, 0.4, 0.6, 0.8, 1]},
+    {duration: 2.5})
+  })
+
+</script>
