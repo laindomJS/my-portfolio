@@ -1,0 +1,28 @@
+<div id="title" class="text-left font-merriweather md:mt-16 lg:mt-0">
+  <span class="text-3xl lg:text-4xl text-white font-semibold">Hello! I'm</span>
+  <h2 
+  class="-tracking-wider text-6xl md:text-7xl lg:text-8xl font-extrabold bg-clip-text bg-gradient-to-tl from-purple-800 via-purple-600 to-rose-600 text-transparent pb-3">
+    Adrian Rangel
+  </h2>
+  <p class="font-bold text-3xl lg:text-4xl text-white">
+    <span>Web developer,</span> 
+    <span>JavaScript enthusiast</span>
+  </p>
+  <p class="text-xl text-slate-400 md:w-[540px] my-3 leading-7">
+    I am a web developer who loves the JavaScript ecosystem. 
+    I seek to create software that is sustainable and provides a unique user experience.
+  </p>
+  <a class="w-fit p-2 text-white font-merriweather font-bold bg-opacity-5 bg-white backdrop-blur-lg drop-shadow-lg text-base lg:text-lg rounded-md duration-300 transition-all hover:scale-105 hover:bg-opacity-10 hover:shadow-sm hover:shadow-purple-300" download href="/docs/cv.jpg">
+    Download CV
+  </a>
+</div>
+
+<script>
+  import { animate, inView } from 'motion';
+
+  inView('#title', (info) => {
+    animate(info.target, 
+    {opacity:[0, 0.2, 0.4, 0.6, 0.8, 1]},
+    {duration: 2.8})
+  })
+</script>
