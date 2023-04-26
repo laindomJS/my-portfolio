@@ -1,6 +1,6 @@
 ---
 interface Props {
-  directionalProps: string;
+  directionalProps?: string;
 }
 
 const { directionalProps } = Astro.props;
@@ -11,6 +11,6 @@ const { directionalProps } = Astro.props;
 <script>
   import { animate } from 'motion';
   animate('#blob', 
-  { y: [0, -20, -30, -50, -50, -30, -30, 0], x: [0, 20, 30, 60, 80, 30, 20, 0] },
-  { duration: 5.8, repeat: Infinity })
+  { y: [-50, 0, 50, 0, -50], x: [0, 50, 0, 50, -50, 0] },
+  { duration: 8.8, repeat: Infinity })
 </script>
